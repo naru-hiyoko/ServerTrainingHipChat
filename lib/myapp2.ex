@@ -15,4 +15,9 @@ defmodule Myapp2 do
   def hello do
     :world
   end
+
+  def main(_) do
+    IO.puts("hello naru")
+  end
+  
 end
